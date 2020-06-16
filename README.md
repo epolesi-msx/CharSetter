@@ -1,6 +1,6 @@
 # CharSetter
 
-A character set (charset) changer utility for the [MSX](https://en.wikipedia.org/wiki/MSX) System. 
+A charset (character set) changer utility for the [MSX](https://en.wikipedia.org/wiki/MSX) System. 
 
 ***
 
