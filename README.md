@@ -1,4 +1,4 @@
-# CharSetter for MSX
+# CharSetter
 
 A character set (charset) changer utility for the [MSX](https://en.wikipedia.org/wiki/MSX) System. 
 
