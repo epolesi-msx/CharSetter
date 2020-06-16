@@ -16,3 +16,6 @@
 
 # Directories
 bin/
+
+# Resources
+!FillFile.exe

@@ -36,7 +36,7 @@ sdcc -mz80 -D%3 --no-std-crt0 --opt-code-size --code-loc 0x4010 --data-loc 0 --a
 if not exist %1.ihx goto error1
 hex2bin –e bin %1.ihx
 if not exist %1.bin goto error2
-copy /b ..\resource\rom_header.bin + %1.bin ..\bin\%1_%2.rom > nul
+copy /b ..\resource\rom_header.dat + %1.bin ..\bin\%1_%2.rom > nul
 if not exist ..\bin\%1_%2.rom goto error3
 if not "%3"=="MULTI_CS" ..\resource\fillfile.exe ..\bin\%1_%2.rom 16384
 if "%3"=="MULTI_CS" ..\resource\fillfile.exe ..\bin\%1_%2.rom 32768
